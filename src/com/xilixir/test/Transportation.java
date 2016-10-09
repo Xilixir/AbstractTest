@@ -15,4 +15,12 @@ public abstract class Transportation {
     public void a(){
         System.out.println("a");
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public TransportationType getType() {
+        return type;
+    }
 }
